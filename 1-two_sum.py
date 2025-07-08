@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSum(self, nums: List[int], target: int) -> List[int]: # type: ignore
         # brute force solution
         # time complexity: O(n^2)
         for i in range(len(nums)):
